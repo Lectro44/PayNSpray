@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">Lab5a</string>
-    <string name="Welcome_St_Francis_Android_World">Welcome St Francis Android World</string>
+    <string name="app_name">Lab-6</string>
+    <string name="hello_readers">Hello Readers</string>
+    <string name="example_button">Example button</string>
+    <string name="checkbox_example">Checkbox example</string>
+    <string name="togglebutton_example">Togglebutton example</string>
+    <string name="radiobutton_1">Radiobutton 1</string>
+    <string name="radiobutton_2">Radiobutton 2</string>
+    <string name="radiobutton_3">Radiobutton 3</string>
+    <string name="todo">todo</string>
 </resources>

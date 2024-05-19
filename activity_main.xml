@@ -1,31 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@color/black"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/idIVLogo"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:text="@string/hello_readers"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/buttonExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/example_button"
+        android:textSize="30sp"
+        tools:ignore="VisualLintButtonSize" />
+    <CheckBox
+        android:id="@+id/checkBoxExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_example"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        tools:ignore="VisualLintButtonSize" />
+    <ToggleButton
+        android:id="@+id/toggleButtonExample"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_margin="25dp"
-        android:src="@drawable/baseline_airport_shuttle_24"
-        app:tint="@color/white"
-        android:contentDescription="@string/Welcome_St_Francis_Android_World" />
-
-    <!--on below line we are creating progress bar-->
-    <ProgressBar
-        android:id="@+id/idPBLoading"
+        android:text="@string/togglebutton_example"
+        android:layout_marginTop="20sp"/>
+    <RadioGroup
+        android:id="@+id/radioGroupExample"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/idIVLogo"
-        android:layout_centerInParent="true"
-        android:indeterminateTint="@color/white" />
+        android:layout_marginTop="20sp">
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/radiobutton_1"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton_2"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton_3"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/imageButtonExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/baseline_accessibility_24"
+        android:layout_marginTop="20sp"
+        tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
 
 
-</RelativeLayout>
+</LinearLayout>
