@@ -3,16 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".SecondActivity"
     android:orientation="vertical"
     android:padding="30dp">
 
-
     <Button
-        android:id="@+id/btnExplicitContent"
+        android:id="@+id/btnImplicitContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/explicit_content"
+        android:text="@string/implicit_content"
         android:textSize="30sp"
         android:layout_marginTop="30dp" />
 

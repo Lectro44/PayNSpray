@@ -1,10 +1,5 @@
 <resources>
-    <string name="app_name">Lab-3</string>
-    <string name="login">Login</string>
-    <string name="enter_name">Enter name</string>
-    <string name="tutorials_point">16sp</string>
-    <string name="todo">16dp</string>
-    <string name="enter_password">Enter Password</string>
-    <string name="attempts_left">Attempts left</string>
-    <string name="cancel">Cancel</string>
+    <string name="app_name">Lab 4</string>
+    <string name="explicit_content">Explicit Content</string>
+    <string name="implicit_content">Implicit Content</string>
 </resources>
