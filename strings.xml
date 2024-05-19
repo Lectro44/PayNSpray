@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab-3</string>
+    <string name="login">Login</string>
+    <string name="enter_name">Enter name</string>
+    <string name="tutorials_point">16sp</string>
+    <string name="todo">16dp</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="attempts_left">Attempts left</string>
+    <string name="cancel">Cancel</string>
+</resources>
