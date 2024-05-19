@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Lab 4</string>
-    <string name="explicit_content">Explicit Content</string>
-    <string name="implicit_content">Implicit Content</string>
+    <string name="app_name">Lab5a</string>
+    <string name="Welcome_St_Francis_Android_World">Welcome St Francis Android World</string>
 </resources>

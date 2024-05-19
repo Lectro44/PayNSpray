@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/black"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:padding="30dp">
+    tools:context=".MainActivity">
 
-
-    <Button
-        android:id="@+id/btnExplicitContent"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/idIVLogo"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/explicit_content"
-        android:textSize="30sp"
-        android:layout_marginTop="30dp" />
+        android:layout_centerInParent="true"
+        android:layout_margin="25dp"
+        android:src="@drawable/baseline_airport_shuttle_24"
+        app:tint="@color/white"
+        android:contentDescription="@string/Welcome_St_Francis_Android_World" />
+
+    <!--on below line we are creating progress bar-->
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVLogo"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/white" />
 
 
-</LinearLayout>
+</RelativeLayout>
