@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab 10</string>
+    <string name="To">To</string>
+    <string name="Subject">Subject</string>
+    <string name="mess">Message</string>
+    <string name="Send">Send</string>
+    <string name="e_mail">E-mail</string>
+
+</resources>
